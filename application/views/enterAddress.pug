@@ -1,0 +1,22 @@
+
+html
+  
+
+  title Address-Enter
+  link(href='/assets/addressPageStyle.css', rel='stylesheet', type='text/css')
+  link(rel='stylesheet', href='https://www.w3schools.com/w3css/4/w3.css')
+
+  body
+    .bgimg.w3-display-container.w3-animate-opacity.w3-text-white
+        
+      .w3-display-middle
+        p enter any valid location and we'll analyse recent tweets from that area to see what they'll be voting! 
+        
+            form#address(method='POST', action='/userAddress')
+                br
+                .textbox
+                  input.text(type='text', name='address')
+
+      .w3-display-bottomleft.w3-padding-large
+        sub Powered by 
+            a(href='https://twitter.com/', target='_blank') Twitter

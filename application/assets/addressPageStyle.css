@@ -1,0 +1,30 @@
+
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+p {
+    font-size: 30px;
+    font-family: 'serif';
+    text-align: center;
+}
+
+body, html {height: 100%}
+.bgimg {
+    background-image: url('addressPage.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.textbox {
+  text-align: center;
+}
+
+.text {
+  width: 600px;
+  text-align: center;
+}
